@@ -36,6 +36,10 @@ table {
 /* 라이브러리 끝 */
 
 /* 커스텀 시작 */
+.topbar__linkbox {  
+  padding: 20px 50%;
+}
+
 .p-titl-2 {
   font-size: 18px;
 }
@@ -97,10 +101,6 @@ table {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.product-upload-form>.product-upload-form__linkbox {  
-  padding: 20px 50%;
 }
 
 .product-upload-form>.p-type-tablebox-1>table {

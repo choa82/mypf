@@ -67,6 +67,13 @@ table {
   border:1px solid #0073A6;
 }
 
+.topbar__linkbox > h3 {
+  width: 100%;
+  color:#0073A6;
+  padding:20px 0 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
 /* 상세페이지 */
 .p-titl-2 {
   font-size: 18px;

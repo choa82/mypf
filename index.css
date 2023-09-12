@@ -99,13 +99,8 @@ table {
   margin-right: auto;
 }
 
-.product-upload-form>#product-upload-form__linkbox {
-  width: 100%;
-  max-width: 740px;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.product-upload-form>.product-upload-form__linkbox {  
+  padding: 20px 50%;
 }
 
 .product-upload-form>.p-type-tablebox-1>table {

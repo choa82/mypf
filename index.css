@@ -11,162 +11,164 @@ tr {
 }
 
 table {
-  border-collapse: collapse;
+  border-collapse: collapse !important;
 }
 
 /* 노말라이즈 끝 */
 
 /* 라이브러리 시작 */
 .m-t20 {
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 
 .m-t50 {
-  margin-top: 50px;
+  margin-top: 50px !important;
 }
 
 .m-b50 {
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
 }
 
 .bg-c-g {
-  background-color: f4f4f4;
+  background-color: f4f4f4 !important;
+}
+
+.p-b {
+  font-weight: bold !important;
+}
+
+.p-c3 {
+  color: #333 !important;
 }
 
 /* 라이브러리 끝 */
 
 /* 커스텀 시작 */
 /* 상단바 버튼 */
-.topbar__linkbox {  
-  padding: 20px 0;
-  width: 100%;
-  max-width: 740px;
-  box-sizing: border-box;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;  
+.topbar__linkbox {
+  padding: 20px 0 !important;
+  width: 100% !important;
+  max-width: 740px !important;
+  box-sizing: border-box !important;
+  margin-top: 50px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-.topbar__linkbox > div > button {
-  border-radius: 5px;
-  padding:5px 10px;
-  cursor:pointer;  
-  font-weight: bold;
-  border:1px solid #aaa;
+.topbar__linkbox>div>button {
+  border-radius: 5px !important;
+  padding: 5px 10px !important;
+  cursor: pointer !important;
+  font-weight: bold !important;
+  border: 1px solid #aaa !important;
 }
 
-.topbar__linkbox > div> button:hover  {
-  background-color:rgba(222, 239, 252, .5);
-  color:#0073A6;  
-  border:1px solid #0073A6;
+.topbar__linkbox>div>button:hover {
+  background-color: rgba(222, 239, 252, 0.5) !important;
+  color: #0073a6 !important;
+  border: 1px solid #0073a6 !important;
 }
 
-.topbar__linkbox > div > .topbar_linkbox_button-on {
-  background-color:rgba(222, 239, 252, .5);
-  color:#0073A6;  
-  border:1px solid #0073A6;
+.topbar__linkbox>div>.topbar_linkbox_button-on {
+  background-color: rgba(222, 239, 252, 0.5) !important;
+  color: #0073a6 !important;
+  border: 1px solid #0073a6 !important;
 }
 
-.topbar__linkbox > h3 {
-  width: 100%;
-  color:#0073A6;
-  padding:20px 0 10px 0;
-  border-bottom: 1px solid #ccc;
+.topbar__linkbox>h3 {
+  width: 100% !important;
+  color: #0073a6 !important;
+  padding: 20px 0 10px 0 !important;
+  border-bottom: 1px solid #ccc !important;
 }
 
 /* 상세페이지 */
 .p-titl-2 {
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 .p-text-1 {
-  color: #4e4e4e;
-  font-size: 16px;
-  line-height: 150%;
+  color: #4e4e4e !important;
+  font-size: 18px !important;
+  line-height: 160% !important;
+}
+
+.p-text-2 {
+  color: #4e4e4e !important;
+  font-size: 16px !important;
+  line-height: 150% !important;
 }
 
 .p-img-1>img {
-  box-sizing: border-box;
-  border: 0px;  
-  display: block;
-  max-width: 740px;
-  width: 100%;
-  height: auto;
+  box-sizing: border-box !important;
+  border: 0px !important;
+  display: block !important;
+  max-width: 740px !important;
+  width: 100% !important;
+  height: auto !important;
 }
 
 .p-type-imgbox-2>.contentbox-2>ul>li {
   list-style-type: disc !important;
-  margin-left: 20px;
-  color: #4e4e4e;
+  margin-left: 20px !important;
+  color: #4e4e4e !important;
 }
 
 .p-type-imgbox-3>.contentbox-3>.p-imglistbox-1 {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  width: 100% !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
 }
 
 .p-type-imgbox-3>.contentbox-3>.p-imglistbox-1>.p-listimg-1 {
-  margin-right: 20px;
-  flex: 1;
+  margin-right: 20px !important;
+  flex: 1 !important;
 }
 
 .p-type-imgbox-3>.contentbox-3>.p-imglistbox-1>.p-listimg-1:last-of-type {
-  margin-right: 0px;
+  margin-right: 0px !important;
 }
 
-.p-type-imgbox-3>.contentbox-3>.p-imglistbox-1>.p-listimg-1>.p-textbox {
-  margin-top: -5px;
+.p-type-imgbox-3>.contentbox-3>.p-imglistbox-1>.p-listimg-1>.\  {
+  margin-top: -5px !important;
 }
 
 .p-type-imgbox-3>.contentbox-3>.p-imglistbox-1>.p-listimg-1>.p-textbox>h2 {
-  color: #333;
-  line-height: 110%;
+  color: #333 !important;
+  line-height: 110% !important;
 }
 
 .p-type-imgbox-3>.contentbox-3>.p-imglistbox-1>.p-listimg-1>.p-textbox>p {
-  margin-top: -10px;
+  margin-top: -10px !important;
 }
 
 .product-upload-form {
-  width: 100%;
-  max-width: 740px;
-  box-sizing: border-box;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100% !important;
+  max-width: 740px !important;
+  box-sizing: border-box !important;
+  margin-top: 50px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .product-upload-form>.p-type-tablebox-1>table {
-  border-collapse: collapse;
-  width: 100%;
+  border-collapse: collapse !important;
+  width: 100% !important;
 }
 
 .product-upload-form>.p-type-tablebox-1>th,
 td,
 .product-upload-form>.p-type-tablebox-1>td,
 th {
-  padding: 3px 10px;
-  font-size: 14px;
+  padding: 3px 10px !important;
+  font-size: 14px !important;
   border: 1px solid #dcdcdc !important;
-  text-align: left;
+  text-align: left !important;
 }
 
 .product-upload-form>.p-type-tablebox-2>table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-/* 모바일에서 가장 큰 가로 값 사이즈로 설정하기 */
-@media (max-width: 500px) {
-  .p-type-imgbox-3>.contentbox-3>.p-imglistbox-1>.p-listimg-1 {
-    width: 100%;
-    flex: none;
-  }
-
-  .product-upload-form h2 {
-    font-size: 18px;
-  }
+  border-collapse: collapse !important;
+  width: 100% !important;
 }
 
 .product-upload-form>.p-type-tablebox-2>table tbody tr:nth-child(even) {
@@ -181,23 +183,60 @@ th {
 td,
 .product-upload-form>.p-type-tablebox-2>table tbody td,
 th {
-  padding: 10px 10px;
-  font-size: 14px;
-  text-align: left;
+  padding: 10px 10px !important;
+  font-size: 14px !important;
+  text-align: left !important;
 }
 
-/* 230922 추가 내용 */
 /* 작업유형8 */
-.p-type-imgbox-5{width: 100% !important;}
-.p-type-imgbox-5>.p-imglistbox-2{display: flex !important;align-items: center !important;width: 100% !important;}
-.p-type-imgbox-5>.p-imglistbox-3{display: flex !important;width: 100% !important;}
-.p-type-imgbox-5>.p-imglistbox-2,.p-type-imgbox-5>.p-imglistbox-3{margin-top: 20px important;}
-.p-type-imgbox-5>.p-imglistbox-2>.p-img-1,
-.p-type-imgbox-5>.p-imglistbox-3>.p-img-1{margin-right: 20px !important;}
-.p-type-imgbox-5>.p-imglistbox-3>.p-textbox>.p-img-1{display:flex;justify-content:center;}
-.p-type-imgbox-5> .p-imglistbox-3>.p-textbox>.p-img-1>img{width:50% !important;padding-top:20px;}
+.p-type-imgbox-5 {
+  width: 100% !important;
+}
 
-/* 미디어커리 추가내용 */
-@media(max-width: 500px){.p-type-imgbox-5>.p-imglistbox-2,.p-type-imgbox-5>.p-imglistbox-3{width: 100% !important;flex: none !important;flex-wrap: wrap !important;}}
+.p-type-imgbox-5>.p-imglistbox-2 {
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+}
+
+.p-type-imgbox-5>.p-imglistbox-3 {
+  display: flex !important;
+  width: 100% !important;
+  margin-top: 20px;
+}
+
+.p-type-imgbox-5>.p-imglistbox-3>.p-textbox>.p-img-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.p-type-imgbox-5>.p-imglistbox-3>.p-textbox>.p-img-1>img {
+  width: 50% !important;
+  padding-top: 20px;
+}
+
+.p-type-imgbox-5>.p-imglistbox-2>.p-img-1,
+.p-type-imgbox-5>.p-imglistbox-3>.p-img-1 {
+  margin-right: 20px !important;
+}
+
+/* 모바일에서 가장 큰 가로 값 사이즈로 설정하기 */
+@media (max-width: 500px) {
+  .p-type-imgbox-3>.contentbox-3>.p-imglistbox-1>.p-listimg-1 {
+    width: 100% !important;
+    flex: none !important;
+  }
+
+  .p-type-imgbox-5>.p-imglistbox-2,
+  .p-type-imgbox-5>.p-imglistbox-3 {
+    width: 100% !important;
+    flex: none !important;
+    flex-wrap: wrap !important;
+  }
+
+  .product-upload-form h2 {
+    font-size: 18px !important;
+  }
+}
 
 /* 커스텀 끝 */

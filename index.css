@@ -61,6 +61,7 @@ table {
   cursor: pointer !important;
   font-weight: bold !important;
   border: 1px solid #aaa !important;
+  margin-top:10px;
 }
 
 .topbar__linkbox>div>button:hover {

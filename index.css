@@ -221,6 +221,14 @@ th {
   margin-right: 20px !important;
 }
 
+.p-text-3 li {
+  width:100% !important;
+  list-style-type: disc !important;
+  margin-left:20px !important;
+  line-height:160% !important;
+  color:#4e4e4e !important;  
+}
+
 /* 모바일에서 가장 큰 가로 값 사이즈로 설정하기 */
 @media (max-width: 500px) {
   .p-type-imgbox-3>.contentbox-3>.p-imglistbox-1>.p-listimg-1 {

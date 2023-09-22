@@ -186,4 +186,18 @@ th {
   text-align: left;
 }
 
+/* 230922 추가 내용 */
+/* 작업유형8 */
+.p-type-imgbox-5{width: 100% !important;}
+.p-type-imgbox-5>.p-imglistbox-2{display: flex !important;align-items: center !important;width: 100% !important;}
+.p-type-imgbox-5>.p-imglistbox-3{display: flex !important;width: 100% !important;}
+.p-type-imgbox-5>.p-imglistbox-2,.p-type-imgbox-5>.p-imglistbox-3{margin-top: 20px important;}
+.p-type-imgbox-5>.p-imglistbox-2>.p-img-1,
+.p-type-imgbox-5>.p-imglistbox-3>.p-img-1{margin-right: 20px !important;}
+.p-type-imgbox-5>.p-imglistbox-3>.p-textbox>.p-img-1{display:flex;justify-content:center;}
+.p-type-imgbox-5> .p-imglistbox-3>.p-textbox>.p-img-1>img{width:50% !important;padding-top:20px;}
+
+/* 미디어커리 추가내용 */
+@media(max-width: 500px){.p-type-imgbox-5>.p-imglistbox-2,.p-type-imgbox-5>.p-imglistbox-3{width: 100% !important;flex: none !important;flex-wrap: wrap !important;}}
+
 /* 커스텀 끝 */

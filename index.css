@@ -60,12 +60,13 @@ table {
 .p-type-imgbox-5{width:100% !important;}
 .p-type-imgbox-5>.p-imglistbox-2{display:flex !important;align-items:center !important; justify-content:space-between !important;margin-top:20px !important;}
 .p-type-imgbox-5 .p-textbox{width:50% !important;}
-.p-type-imgbox-5 .p-img-2{width:50% !important;display:flex !important;justify-content:center !important;}
-.p-type-imgbox-5 .p-img-2>img{max-width:360px !important;overflow: hidden !important;}
+.p-type-imgbox-5 .p-img-2{width:50% !important;display:flex !important;justify-content:center !important;align-items:center !important;}
+.p-type-imgbox-5 .p-img-2>img{max-width:360px !important;overflow:hidden !important;}
 .p-type-imgbox-5>.p-imglistbox-3{display:flex !important;width: 100% !important;margin-top:20px !important;}
 .p-type-imgbox-5>.p-imglistbox-3 .p-img-1{display:flex;justify-content:center !important;}
 .p-type-imgbox-5>.p-imglistbox-3 .p-img-1>img{width:50% !important;padding-top:20px !important;}
 .p-type-imgbox-5>.p-imglistbox-4{width:100%;display:flex;align-items:top;}
+.p-type-imgbox-5>.p-imglistbox-4 .p-img-2{align-items:flex-start !important;}
 
 
 /* 모바일 미디어 커리 */

@@ -175,63 +175,24 @@ table {
   text-align: left !important;
 }
 
+/* 2023.9.25 css추가 */
 /* 작업유형8 */
-.p-type-imgbox-5 {
-  width: 100% !important;
-}
-
-.p-type-imgbox-5>.p-imglistbox-2 {
-  display: flex !important;
-  align-items: center !important;
-  justify-content:space-between !important; 
-  margin-top:20px !important;
-}
-
-.p-type-imgbox-5>.p-imglistbox-3 {
-  display: flex !important;
-  width: 100% !important;
-  margin-top: 20px !important;
-}
-
-.p-type-imgbox-5>.p-imglistbox-3>.p-textbox>.p-img-1 {
-  display: flex !important;
-  justify-content: center !important;
-}
-
-.p-type-imgbox-5>.p-imglistbox-3>.p-textbox>.p-img-1>img {
-  width: 50% !important;
-  padding-top: 20px !important;
-}
-
-.p-text-3 li {
-  width:100% !important;
-  list-style-type: disc !important;
-  margin-left:20px !important;
-  line-height:160% !important;
-  color:#4e4e4e !important;  
-}
+.p-type-imgbox-5{width:100% !important;}
+.p-type-imgbox-5>.p-imglistbox-2{display:flex !important;align-items:center !important; justify-content:space-between !important;margin-top:20px !important;}
+.p-type-imgbox-5>.p-imglistbox-2>.p-textbox,.p-type-imgbox-5>.p-imglistbox-3>.p-textbox{width:50% !important;}
+.p-type-imgbox-5>.p-imglistbox-2>.p-img-1,.p-type-imgbox-5>.p-imglistbox-3>.p-img-1{width:50% !important;display:flex !important;justify-content:center !important;}
+.p-type-imgbox-5>.p-imglistbox-2>.p-img-1>img{max-width:360px !important;}
+.p-type-imgbox-5>.p-imglistbox-3{display:flex !important;width: 100% !important;margin-top:20px !important;}
+.p-type-imgbox-5>.p-imglistbox-3>.p-textbox>.p-img-1{display:flex;justify-content:center !important;}
+.p-type-imgbox-5>.p-imglistbox-3>.p-textbox>.p-img-1>img{width:50% !important;padding-top:20px !important;}
 
 /* 모바일에서 가장 큰 가로 값 사이즈로 설정하기 */
-@media (max-width: 500px) {
-  .p-type-imgbox-3>.contentbox-3>.p-imglistbox-1>.p-listimg-1 {
-    width: 100% !important;
-    flex: none !important;
-  }
-
-  .p-type-imgbox-5 .p-textbox {
-    margin:0 !important;
-  }
-
-  .p-type-imgbox-5>.p-imglistbox-2,
-  .p-type-imgbox-5>.p-imglistbox-3 {
-    width: 100% !important;
-    flex: none !important;
-    flex-wrap: wrap !important;
-  }
-
-  .product-upload-form h2 {
-    font-size: 18px !important;
-  }
+@media (max-width:500px){
+  .p-type-imgbox-3>.contentbox-3>.p-imglistbox-1>.p-listimg-1{width:100% !important;flex:none !important;}
+  .p-type-imgbox-5 .p-textbox{margin:0;}
+  .p-type-imgbox-5>.p-imglistbox-2,.p-type-imgbox-5>.p-imglistbox-3{width:100% !important;flex:none !important;flex-wrap:wrap !important;}  
+  .p-type-imgbox-5>.p-imglistbox-2>.p-textbox,.p-type-imgbox-5>.p-imglistbox-3>.p-textbox,.p-type-imgbox-5>.p-imglistbox-2>.p-img-1,.p-type-imgbox-5>.p-imglistbox-3>.p-img-1{width:100% !important;}
+  .product-upload-form h2{font-size:18px !important;}
 }
 
 /* 커스텀 끝 */

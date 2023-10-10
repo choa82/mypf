@@ -70,8 +70,8 @@ table {
 
 
 /* 모바일 미디어 커리 */
-@media (max-width:500px){
-  .p-type-imgbox-3>.contentbox-3>.p-imglistbox-1>.p-listimg-1{width:100% !important;flex:none !important;}
+@media (max-width:500px){ 
+  .product-upload-form>.p-type-imgbox-3>.contentbox-3>.p-imglistbox-1>.p-listimg-1{width:100% !important;flex:none !important;}
   .p-type-imgbox-5 .p-textbox{margin:0;}
   .p-type-imgbox-5>.p-imglistbox-2,.p-type-imgbox-5>.p-imglistbox-3,.p-type-imgbox-5>.p-imglistbox-4{width:100% !important;flex:none !important;flex-wrap:wrap !important;}  
   .p-type-imgbox-5 .p-textbox,.p-type-imgbox-5 .p-img-2{width:100% !important;}
